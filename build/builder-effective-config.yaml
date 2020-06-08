@@ -1,0 +1,10 @@
+directories:
+  output: build
+  buildResources: build
+appId: de.intarsys.electron-app
+productName: my-angular-electron-app-demo
+target: NSIS
+nsis:
+  allowToChangeInstallationDirectory: true
+  oneClick: false
+electronVersion: 7.1.7
